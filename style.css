@@ -1,0 +1,59 @@
+
+h1{
+    color:rgb(62, 32, 32);
+    font-size: 30px;
+    text-align: center;
+}
+
+h2, h3{
+    font-size: 20px;
+}
+
+body{
+    color: black;
+    font-family: sans-serif;
+    background-color: rgb(191, 168, 147);
+    background-image: url('img1.jpg');
+}
+
+.iconos{
+    margin-right: 25px;
+}
+
+.iconos-container{
+    text-align: center;
+}
+
+video.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fotos img{
+    margin-right: 25px;
+    /* El inline - block adapta ambas cosas del inline y del block */
+    /*display: inline-block;*/
+}
+
+.fotos-container{
+    text-align: center;
+}
+
+/* Selector de ID
+Selector de ID me ayudará a editar un elemento a la vez,
+Es para cuando solo queremos hacer cambios a un elemento.
+Va a cambiar la etiqueta con el atributo
+id="nombre-id"
+Y vamos a llamar al elemento por
+el operador de numeral
+#nombre-id
+*/ 
+#logo {
+    width: 150px;
+}
+
+#imagenes{
+    display: inline-block;
+    text-align: center;
+}
